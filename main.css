@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+h1{
+    align-self: center;
+    font-weight: 700;
+}
+
+#color-box{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+#button-div{
+    align-self: center;
+}
+
+#change-color-btn{
+    font-size:14px;
+    line-height:20px;
+    font-weight: 200;
+    color: white;
+    border-radius:8px;
+    padding-left:16px;
+    padding-right: 16px;
+    border-radius: 8px;
+}
+#change-color-btn:focus{
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
